@@ -1,0 +1,139 @@
+
+
+
+.color1 {
+    height: 150px;
+    background: black;
+}
+
+.color2 {
+    height: 150px;
+    background: yellow;
+}
+
+.color3 {
+    height: 150px;
+    background: blue;
+}
+
+.color4 {
+    height: 150px;
+    background: red;
+}
+
+.color5 {
+    height: 150px;
+    background: gray;
+}
+
+.color6 {
+    height: 150px;
+    background: green;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+   
+
+#proje .container p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    font-weight: 700;
+    padding: 5px;
+    text-decoration: underline ;
+    
+}
+#proje .container .item{
+margin: 80px;
+
+}
+#proje .icon{
+    position: relative;
+}
+#proje .icon h1{
+    position: absolute;
+    top: 85%;
+    left:30%;
+    color: white;
+    font-size: 15px;
+    font: 500;
+}
+#proje .icon .cover{
+    position: absolute;
+    background: black;
+    width: 80%;
+    height: 90%;
+    top: 20px;
+    left: 15px;
+    opacity: 0.7;
+}
+#proje .icon .add i{
+    position: absolute;
+    top: 78%;
+    left: 43%;
+    color: white;
+}
