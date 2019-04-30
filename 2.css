@@ -1,0 +1,159 @@
+.color1 {
+    height: 150px;
+    background: black;
+}
+
+.color2 {
+    height: 150px;
+    background: yellow;
+}
+
+.color3 {
+    height: 150px;
+    background: blue;
+}
+
+.color4 {
+    height: 150px;
+    background: red;
+}
+
+.color5 {
+    height: 150px;
+    background: gray;
+}
+
+.color6 {
+    height: 150px;
+    background: green;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+#ourwork{
+    margin: 50px 0;
+
+}
+
+#ourwork p{
+    font-size: 11px;
+    letter-spacing: 3px;
+
+}
+
+
+
+#ourwork h1{
+    margin: 20px 0;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+#ourwork h1 span{
+    font-weight: 700;
+}
+
+
+#ourwork .item{
+    position: relative;
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+
+}
+#ourwork .item img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+#ourwork .item .cover{
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 99%;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    border-radius: 5px;
+}
+
+
+#ourwork .item h2{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 63%;
+    right: 32%;
+    padding: 5px;
+
+}
+#ourwork .item h4{
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    color: white;
+    background: #2d2de2;
+    padding: 10px;
+}
+
